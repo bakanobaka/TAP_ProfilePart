@@ -290,7 +290,7 @@
             android:id="@+id/layout_team"
             android:layout_below="@+id/layout_skills"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/editteam"
@@ -321,7 +321,7 @@
             <ListView
                 android:id="@+id/listView1"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="500dp"
                 android:layout_below="@+id/txtteams">
             </ListView>
 
